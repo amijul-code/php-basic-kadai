@@ -1,8 +1,3 @@
-<?php
- print_r($_POST);
- echo $_POST['employee_name'];
- ?>
-
 <!DOCTYPE html>
 <html>
 
@@ -14,7 +9,7 @@
 <body>
   <h1>登録が完了しました。</h1>
   <p>社員情報がデータベースに保存されました。</p>
-  <input type="button" value="戻る" onclick="history.back()">
+  <input type="button" value="戻る" onclick="history.go(-2)">
 
 </body>
 </html>

@@ -1,7 +1,3 @@
-<?php
- print_r($_POST);
- echo $_POST['employee_name'];
-?>
 <!DOCTYPE html>
 <html>
 
